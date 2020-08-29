@@ -1,0 +1,8 @@
+package day13.demo02;
+
+public abstract class Fu {
+    public Fu(){
+        System.out.println("抽象父类构造执行！");
+    }
+    public abstract void eat();
+}
